@@ -10,7 +10,7 @@
  */
 const getAnswer = require('./answers').getAnswer;
 module.exports = robot => {
-  robot.respond(/^(?:what|who|when|why|how) (?:is|are) ([\w\s]+)\??$/i, res => {
+  robot.respond(/^what is ([\w\s]+)[?!.]*$/i, res => {
     const query = escape(res.match[1]);
     getAnswer(query)
       .then(response => res.send(response))
