@@ -1,0 +1,23 @@
+{
+  "name": "hubot-simple-answers",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Guy Bianco IV <gjbiancoiv@gmail.com>",
+  "homepage": "https://github.com/gjbianco/hubot-simple-answers#readme",
+  "license": "MIT",
+  "main": "src/robot.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjbianco/hubot-simple-answers.git"
+  },
+  "dependencies": {
+    "axios": "~0.19.0",
+    "lodash": "~4.17.11"
+  },
+  "devDependencies": {
+    "jest": "~24.8.0"
+  }
+}
